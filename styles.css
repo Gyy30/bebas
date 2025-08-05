@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('https://wallpapercave.com/wp/wp7160100.png'); /* Ganti dengan nama file gambarmu */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #c556f8, #8284ff); /* warna pink ke ungu */
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.bulat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   border-radius: 100px;
+   margin-top: 15%;
+   
+   
+  
+}
+
+.nama {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #000;
+}
+
+.kelas {
+  font-size: 18px;
+  margin: 0;
+  color: #000;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.profile-text {
+  margin-top: 15px; /* jarak antara gambar dan teks */
+}
